@@ -9,12 +9,10 @@ This project was developed as part of a university group assignment. We built an
 
 ## 📹 Demo
 
+https://github.com/user-attachments/assets/04ac54a8-2143-45ec-a4be-e9dd33efa9cd
+https://github.com/user-attachments/assets/a25a2c38-8477-4c7f-b343-45692cd8cab3
 
-https://github.com/user-attachments/assets/8021cf82-0f53-4eba-8db1-a1fc41db4085
-
-https://github.com/user-attachments/assets/778e9211-537c-4e49-883f-b39b6948d175
-
-https://github.com/user-attachments/assets/c5e62b38-bff8-4e1d-b33e-384c1fbf224e
+[](https://github.com/user-attachments/assets/c5e62b38-bff8-4e1d-b33e-384c1fbf224e)
 
 ---
 
