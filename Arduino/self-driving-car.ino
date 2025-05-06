@@ -112,22 +112,22 @@ void loop() {
   }
 
 // Ultrasonic sensors (detect the obstacle)
-  // if (!obstacle_passed) {
-  //   if (front_sensor_distance < 60 && front_sensor_distance > 20 && !first_turn) {
-  //     speed = speed - 10;
-  //     steeringServo.write(104);
-  //     first_turn = true;
-  //   }
+   if (!obstacle_passed) {
+     if (front_sensor_distance < 60 && front_sensor_distance > 20 && !first_turn) {
+       speed = speed - 10;
+       steeringServo.write(104);
+       first_turn = true;
+     }
 
-  //   if (first_turn && right_back_sensor_distance < 30 && right_back_sensor_distance > 0) {
-  //     second_turn = true;
-  //     first_turn = false;
-  //     steeringServo.write(70);
-  //     turn_far_right_sensor_off = true;
-  //     obstacle_passed = true;
-  //     speed = speed + 10;
-  //   }
-  // }
+     if (first_turn && right_back_sensor_distance < 30 && right_back_sensor_distance > 0) {
+       second_turn = true;
+       first_turn = false;
+       steeringServo.write(70);
+       turn_far_right_sensor_off = true;
+       obstacle_passed = true;
+       speed = speed + 10;
+     }
+   }
 
 
 
